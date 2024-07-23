@@ -1,0 +1,22 @@
+.header-banner{
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  font-size: 25px;
+}
+
+.left-section{
+  background-color: blueviolet;
+  flex: 0.5
+}
+
+.middle-section{
+  background-color: red;
+  flex: 0.6%;
+}
+
+.right-section{
+  background-color: green;
+  justify-content: flex-start;
+  flex: 1
+}
